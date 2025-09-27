@@ -1,0 +1,31 @@
+/* Секція Hero */
+#hero_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#hero_container h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#hero_container p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+#hero_container .btn {
+  background-color: #0057b8;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+#hero_container .btn:hover {
+  background-color: #003f87;
+}
