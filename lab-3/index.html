@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Card Form</title>
+  </head>
+  <body>
+    <h1>Student card FORM</h1>
+
+    <h2>Personal Information</h2>
+    <form>
+      <fieldset>
+        <legend>Provide your details</legend>
+
+        <label
+          >Full Name:
+          <input type="text" placeholder="Enter your full name" /> </label
+        ><br /><br />
+
+        <label
+          >Email: <input type="email" placeholder="Enter your email" /> </label
+        ><br /><br />
+
+        <label
+          >Password:
+          <input type="password" placeholder="Enter a password" /> </label
+        ><br /><br />
+
+        <label>Age: <input type="number" /> </label><br /><br />
+
+        <label>Date of Birth: <input type="date" /> </label><br /><br />
+
+        <label>Gender:</label><br />
+        <input type="radio" name="gender" /> Male <br />
+        <input type="radio" name="gender" /> Female <br />
+        <input type="radio" name="gender" /> Other <br /><br />
+
+        <label>Languages Known:</label><br />
+        <input type="checkbox" /> English <br />
+        <input type="checkbox" /> Spanish <br />
+        <input type="checkbox" /> French <br /><br />
+
+        <label
+          >Country:
+          <select>
+            <option>Select your country</option>
+            <option>USA</option>
+            <option>Ukraine</option>
+            <option>Poland</option>
+            <option>Germany</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <h2>College Subjects</h2>
+      <fieldset>
+        <legend>Select your subjects</legend>
+        <select multiple size="4">
+          <option>Mathematics</option>
+          <option>Computer Science</option>
+          <option>Physics</option>
+          <option>Chemistry</option></select
+        ><br /><br />
+
+        <label>Rate your interest in Computer Science:</label>
+        <input type="range" />
+      </fieldset>
+
+      <h2>Skills Assessment</h2>
+      <fieldset>
+        <legend>Assess your skills</legend>
+        <label>Describe your skills:</label><br />
+        <textarea
+          rows="5"
+          cols="40"
+          placeholder="List your skills here..."
+        ></textarea
+        ><br /><br />
+
+        <label>Upload your resume:</label>
+        <input type="file" /><br /><br />
+
+        <label>Pick your favorite color:</label>
+        <input type="color" /><br /><br />
+
+        <label>Preferred study time:</label>
+        <input type="time" /><br /><br />
+
+        <button type="submit">Submit Survey</button>
+      </fieldset>
+    </form>
+
+    <footer>
+      <p>©Copyright 2025 by Герман Звоненко. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
